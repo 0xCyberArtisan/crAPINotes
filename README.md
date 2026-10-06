@@ -133,25 +133,6 @@ The assessment is aligned with established application-security practices, inclu
 
 ---
 
-# Findings
-
-The following vulnerabilities have been identified and documented through manual assessment and proof-of-concept validation.
-
-| ID        | Vulnerability                        | Category                          | Evidence                                                     |
-| --------- | ------------------------------------ | --------------------------------- | ------------------------------------------------------------ |
-| CRAPI-001 | JWT `alg:none` Authentication Bypass | Authentication / JWT              | [PoC](crAPINotes/PoCs/JWT-Alg-None-Authentication-Bypass.md) |
-| CRAPI-002 | Authentication Token Vulnerability   | Authentication                    | [PoC](crAPINotes/PoCs/Auth-Vuln-Token.md)                    |
-| CRAPI-003 | Contact Mechanic SSRF                | SSRF                              | [PoC](crAPINotes/PoCs/Contact-Mechanic-SSRF-Vuln.md)         |
-| CRAPI-004 | Coupon Code NoSQL Injection          | Injection                         | [PoC](crAPINotes/PoCs/Coupon-Code-NoSQL-Injection-Vuln.md)   |
-| CRAPI-005 | Unauthorized Private Video Access    | Authorization                     | [PoC](crAPINotes/PoCs/Delete-Private-Video.md)               |
-| CRAPI-006 | Improper Inventory Management        | Business Logic                    | [PoC](crAPINotes/PoCs/Improper-Inventory-Managment.md)       |
-| CRAPI-007 | Product Mass Assignment              | Authorization / Mass Assignment   | [PoC](crAPINotes/PoCs/List-Products-Mass-Assignment.md)      |
-| CRAPI-008 | Vehicle Location BOLA                | Broken Object Level Authorization | [PoC](crAPINotes/PoCs/Vehicle-Location-vuln-BOLA.md)         |
-
-> **Note:** Severity ratings are intentionally maintained within the individual vulnerability reports rather than inferred at the portfolio level.
-
----
-
 # Featured Finding
 
 ## CRAPI-001 — JWT `alg:none` Authentication Bypass
